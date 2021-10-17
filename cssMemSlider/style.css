@@ -171,7 +171,12 @@ label, a{
 }
 @media all and (max-width: 1024px){
 	.slider{
-		height: 60vh;
+		height: 80vh;
+	}
+}
+@media all and (max-width: 568px){
+	.slider{
+		height: 70vh;
 	}
 }
 
@@ -184,7 +189,7 @@ label, a{
 		padding: 0 15px;
 	}
 	.slides-texts{
-		padding-top: 2px;
+		padding-top: 3px;
 	}
 }
 @media all and (max-width: 416px){
